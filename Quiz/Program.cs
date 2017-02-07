@@ -10,10 +10,10 @@ namespace Quiz
 			var correctAnswers = 0;
 			var incorrectAnswers = 0;
 
-			Console.WriteLine("What is my First Name?");
-			var aaron = Console.ReadLine();
+			Console.WriteLine("What is the name of the programming language that is the name of a snake?");
+			var python = Console.ReadLine();
 
-			if (aaron.ToLower() == "aaron")
+			if (python.ToLower() == "python")
 			{
 				correctAnswers += 1;
 			}
@@ -22,10 +22,10 @@ namespace Quiz
 				incorrectAnswers += 1;
 			}
 
-			Console.WriteLine("What is my Middle Name?");
-			var matthew = Console.ReadLine();
+			Console.WriteLine("What is the name of the programming language that is the name of a gem?");
+			var ruby = Console.ReadLine();
 
-			if (matthew.ToLower() == "matthew")
+			if (ruby.ToLower() == "ruby")
 			{
 				correctAnswers += 1;
 			}
@@ -34,10 +34,10 @@ namespace Quiz
 				incorrectAnswers += 1;
 			}
 
-			Console.WriteLine("What is my Last Name?");
-			var harpt = Console.ReadLine();
+			Console.WriteLine("What is the name of the programming language that is the main language used for interactivity on the web?");
+			var javascript = Console.ReadLine();
 
-			if (harpt.ToLower() == "harpt")
+			if (javascript.ToLower() == "javascript")
 			{
 				correctAnswers += 1;
 			}
